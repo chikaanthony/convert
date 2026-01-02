@@ -89,7 +89,7 @@ input{
     background-color: rgb(27, 99, 99);
 }
 p{
-    display: block;
+    display: flex;
     outline: none;
     border: none;
     margin-bottom: 20px;
@@ -102,4 +102,5 @@ p{
     font-weight: bold;
     background-color: rgb(27, 99, 99);
     margin: auto;
+    align-items: center;
 }
