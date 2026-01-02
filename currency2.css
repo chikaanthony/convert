@@ -7,7 +7,7 @@ body{
 section{
     background-color: aliceblue;
     text-align: center;
-    max-width: 260px;
+    m-width: 260px;
     margin: auto;
     padding: 20px;
     border-radius: 20px;
@@ -93,14 +93,15 @@ p{
     outline: none;
     border: none;
     margin-bottom: 20px;
-    width: 190px;
+    min-width: 190px;
     border-radius: 10px;
     padding-left: 10px;
-    height: 80px;
+    min-height: 80px;
     font-size: 1.2rem;
     color: rgb(223, 230, 231);
     font-weight: bold;
     background-color: rgb(27, 99, 99);
     margin: auto;
     align-items: center;
+
 }
