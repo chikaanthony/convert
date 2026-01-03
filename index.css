@@ -23,17 +23,19 @@ nav{
     border-radius: 20px;
     color: white;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     background-color: rgb(2, 2, 69);
     border: none;
     transition: 0.5s;
+    height: 20px;
+    align-self: center;
 }
 .dark-mode .mode{
     background: white;
     color: blue;
 }
 .mode:hover{
-    font-size: 1rem;
+    font-size: 0.7rem;
     background-color: rgba(2, 2, 69, 0.434);
 }
 body.dark-mode{
