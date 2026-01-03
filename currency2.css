@@ -7,7 +7,7 @@ body{
 section{
     background-color: aliceblue;
     text-align: center;
-    min-width: 260px;
+    width: 260px;
     margin: auto;
     padding: 20px;
     border-radius: 20px;

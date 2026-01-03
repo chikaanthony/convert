@@ -7,6 +7,38 @@ nav{
     top: 0;
     box-shadow: 2px 2px 5px black;
     padding: 2px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.dark-mode nav {
+    background: blue;
+    color: white;
+}
+.dark-mode section{
+    background: red;
+}
+.mode{
+    justify-self: end;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: rgb(2, 2, 69);
+    border: none;
+    transition: 0.5s;
+}
+.dark-mode .mode{
+    background: white;
+    color: blue;
+}
+.mode:hover{
+    font-size: 1rem;
+    background-color: rgba(2, 2, 69, 0.434);
+}
+body.dark-mode{
+    background-color: rgb(0, 0, 24);
+    color: white;
 }
 *{
     margin: 0;

@@ -8,11 +8,14 @@ function convert() {
             result = input * 1455.21;
             break;
         case "EUR":
-            result = input * 1.08;
+            result = input * 1687.00;
             break;
         case "GBP":
-            result = input * 0.75;
+            result = input * 1931.67;
             break;
+        case "JPY":
+            result = input * 9.18;
+            break
         default:
             result = 0;
     }
